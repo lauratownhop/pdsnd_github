@@ -4,7 +4,7 @@
 Project and read.me file made 8/5/2022
 
 ### Project Title
-Udacity Assignment 3
+Laura's Udacity Assignment 3
 
 ### Description
 Final assignment highlighting ability to use GitHub
