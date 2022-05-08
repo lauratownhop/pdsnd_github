@@ -15,10 +15,10 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
-    
+    print('Hello! Let\'s explore some US bikeshare data! Hope you enjoy!')
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    while True: 
+    while True:
         city = input("\nPlease select a city to filter by via typing one out below: Chicago, New York City or Washington?\n")
         if city not in ('Chicago', 'New York City' or 'Washington'):
             print("Whoops! Typo alert! Try write out your city option again: Chicago, New York City or Washington?")
@@ -30,7 +30,7 @@ def get_filters():
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    while True: 
+    while True:
         month = input("\nPlease select a month to filter by via typing one out below: January, February, March, April, May, June or type 'all' if you want no filter applied.\n")
         if month not in ('January', 'February', 'March', 'April', 'May', 'June' or 'all'):
             print("Oopsies - did you mispell a month? Don't worry, I won't tell anyone! Try write out your option again: January, February, March, April, May, June or type 'all' if you want no filter applied.\n")
@@ -40,11 +40,11 @@ def get_filters():
             print("Fantastic :)")
             break
 
-    
+
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    while True: 
+    while True:
         day = input("\nPlease select a day to filter by via typing one out below: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or type 'all' if you want no filter applied.\n")
         if day not in ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday' or 'all'):
             print("Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or type 'all' if you want no filter applied.\n")
@@ -178,10 +178,10 @@ def user_stats(df):
     # TO DO: Display earliest, most recent, and most common year of birth
     earliest_year = df['Earliest Year'].min()
     print('Earliest Year:', earliest_year)
-    
+
     most_recent_year = df['Most Recent Year'].max()
     print('Most Recent Year:', most_recent_year)
-    
+
     common_year = df['Most Common Year'].value_counts().idxmax()
     print('Most Common Year:', common_year)
 
@@ -191,7 +191,7 @@ def user_stats(df):
 
 def display_data(df):
     """Displays 5 rows of data from city spreadsheet"""
-    
+
     while True:
         option=['yes','no']
         view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?").lower()
@@ -202,10 +202,10 @@ def display_data(df):
            break
         else:
             print("Try again!")
-      
+
     while True:
         option=['yes','no']
-        view_display = input("Do you wish to continue with 5 more rows? Type yes/no? ").lower() 
+        view_display = input("Do you wish to continue with 5 more rows? Type yes/no? ").lower()
         if view_display in option:
            option=='yes':
            start_loc = 5
@@ -214,7 +214,7 @@ def display_data(df):
         else:
             print("Ok :)")
 
-    
+
 
 def main():
     while True:
