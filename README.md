@@ -1,17 +1,16 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+Project and read.me file made 8/5/2022
 
 ### Project Title
-Replace the Project Title
+Udacity Assignment 3
 
 ### Description
-Describe what your project is about and what it does
+Final assignment highlighting ability to use GitHub
 
 ### Files used
-Include the files used
+Files used from previous python assignment
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Assignment completed by Laura Town-Hopkinson, data and project supplied by Udacity
